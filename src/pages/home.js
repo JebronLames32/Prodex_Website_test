@@ -1,19 +1,19 @@
 import React ,{useState} from "react";
-import openiit18 from "./../assets/img/portfolio/cgiu1.jpg";
-import cgiu1 from "./../assets/img/portfolio/cgiu1.jpg";
-import empowerimg from "./../assets/img/portfolio/empower.jpg";
-import GES2 from "./../assets/img/portfolio/GES2.jpg";
-import IFwinners from "./../assets/img/portfolio/IFwinners.jpeg";
+import openiit18 from "./../assets/img/portfolio/openiit2018.jpg";
+import cgiu1 from "./../assets/img/portfolio/cgiu2.jpg";
+import empowerimg from "./../assets/img/portfolio/Empower2022.jpg";
+import GES2 from "./../assets/img/portfolio/GES1.jpg";
+import IFwinners from "./../assets/img/portfolio/IF.jpg";
 import masterpiece from "./../assets/img/portfolio/masterpiece.jpg";
-import novus from "./../assets/img/portfolio/novus2.jpg";
-import prakrit from "./../assets/img/portfolio/prakriti1.jpg";
-import RTH from "./../assets/img/portfolio/RTH.jpg";
+import novus from "./../assets/img/portfolio/Novus_X.0.jpg";
+import prakrit from "./../assets/img/portfolio/prakriti2.jpg";
+import RTH from "./../assets/img/portfolio/rth3.jpg";
 import r31 from "./../assets/img/portfolio/r31.jpg";
 import hero from "./../assets/img/hero-img.png";
-import openiit22 from "./../assets/img/portfolio/open_iit_2022_winner.jpg";
+import openiit22 from "./../assets/img/portfolio/open_iit_2022.jpg";
 import openiit21 from "./../assets/img/portfolio/Open_iit_2021.png";
 import openiit20 from "./../assets/img/portfolio/Open_IIT_2020.jpg" ;
-import siemens from "./../assets/img/portfolio/siemens1.jpg";
+import siemens from "./../assets/img/portfolio/siemens.jpg";
 import { Link, renderMatches} from "react-router-dom";
 import { Icon } from '@iconify/react';
 
@@ -271,8 +271,6 @@ class Home extends React.Component{
     
             <div className='section-title'>
               <h2>What We Do</h2>
-              {/*<!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                quidem hic quas.</p> -->*/}
             </div>
     
             <div className='row'>
@@ -356,7 +354,7 @@ class Home extends React.Component{
                 <div className='portfolio-info'>
                   <h4>Open IIT Prod-D 2022, IITKGP</h4>
                   <p>2022</p>
-                  <Link to={openiit22} data-gall="portfolioGallery" className='venobox preview-link' title="Open IIT Product Design 2021"><i className='bx bx-plus'></i></Link>
+                  <Link to={openiit22} data-gall="portfolioGallery" className='venobox preview-link' title="Open IIT Product Design 2022"><i className='bx bx-plus'></i></Link>
                   <Link to="/openiit22" className='details-link' title="More Details"><i className='bx bx-link'></i></Link>
                 </div>
               </div>

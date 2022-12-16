@@ -960,11 +960,11 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta {
+/* .cta {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("C:\Users\RAUNAK RAJ\OneDrive\Documents\HTML\Empower\empower\src\img\kgp.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
-}
+} */
 
 .cta h3 {
   color: #fff;
